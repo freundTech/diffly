@@ -32,6 +32,8 @@ readthedocs = { cmd = "rm -rf $READTHEDOCS_OUTPUT/html && cp -r docs/_build/html
 jupyter = "*"
 
 [feature.test.dependencies]
+boto3-stubs = "*"
+moto = "*"
 mypy = "*"
 pytest = ">=6"
 pytest-cov = "*"
